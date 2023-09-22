@@ -1,4 +1,92 @@
 .header {
     background-color: #150E28;
     color: white;
+    padding: 30px 100px;
+}
+
+/* styles.css */
+.content-separator {
+    border-top: 0.05px solid #FFFFFF; /* Adjust the color and thickness as needed */
+  }
+  
+/* styles.css */
+.image-container {
+    position: relative;
+}
+  
+.image-background {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%; /* Adjust dimensions as needed */
+    height: 100%;
+    z-index: 1; /* Lower z-index to place it behind */
+}
+  
+.image-foreground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Adjust dimensions as needed */
+    height: 100%;
+    z-index: 5; /* Higher z-index to place it in front */
+}
+  
+/* styles.css */
+.gradient-button {
+    background: linear-gradient(to right, #D434FE, #903AFF); /* Gradient colors and direction */
+    color: white; /* Text color */
+    border: none; /* Remove button border if desired */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 5px; /* Adjust border radius as needed */
+    cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+  
+.clock {
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 5px;
+    margin: 20px 0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+  
+.time-part {
+    font-size: 50px;
+}
+  
+.unit {
+    font-size: 15px;
+}
+  
+.time-space {
+    font-size: 36px; /* Adjust the space size */
+    margin: 0 5px; /* Adjust spacing between spaces */
+}
+ 
+/* styles.css */
+.circle {
+    width: 40px; /* Adjust the width and height to control the size of the circle */
+    height: 40px;
+    text-align: center;
+    background: linear-gradient(to right, #D434FE, #903AFF); /* Gradient colors and direction */
+    border-radius: 50%; /* Make it a circle */
+}
+
+.image-background1 {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%; /* Adjust dimensions as needed */
+    height: 100%;
+    z-index: 1; /* Lower z-index to place it behind */
+}
+  
+.image-foreground1 {
+    position: absolute;
+    top: 160px;
+    left: 0;
+    width: 100%; /* Adjust dimensions as needed */
+    height: 100%;
+    z-index: 3; /* Higher z-index to place it in front */
 }

@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { BiMenu } from 'react-icons/bi';
+import logo from '../assets/images/getlinked.png'
 
 
 const navLinks = [
@@ -47,10 +48,12 @@ const Header = () => {
       <div >
         <div className="flex items-center justify-between">
           {/* =================== logo =================== */}
-          <div>
-            <h1>getlinked</h1>
-          </div>
-
+          <Link to="/home">
+            <div>
+              <img src={logo} alt='' />
+            </div>
+          </Link>
+          
           {/* =================== menu =================== */}
           <div className="flex items-center gap-4">
             <ul className="flex items-center gap-[2.7rem]">
@@ -71,9 +74,9 @@ const Header = () => {
             
 
             <Link to="/register">
-              <button className="bg-primaryColor py-2 px-6 text-white font-[600] h-[44px] flex items-center justify-center rounded">
+              <button className='gradient-button bg-headingColor mx-[30px] p-[10px] w-[150px] rounded'>
                 Register
-              </button>
+              </button> 
             </Link>
           </div>
         </div>

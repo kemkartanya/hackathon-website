@@ -7,13 +7,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        primaryColor: "#0067FF",
-        yellowColor: "#FEB60D",
-        purpleColor: "#9771FF",
-        irisBlueColor: "#01B5C5",
-        headingColor: "#181A1E",
-        textColor: "#4E545F",
-        hotpink: '#FF69B4',
+        primaryColor: "#150E28",
+        headingColor: "#903AFF",
+        textColor: "#D434FE",
+        hotpink: '#FF26B9',
       },
     },
   },
