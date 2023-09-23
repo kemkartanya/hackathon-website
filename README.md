@@ -3,4 +3,4 @@ starting application
 2. npm run dev 
 
 
-deployed app: https://hackathon-site.netlify.app/home
+deployed app: https://hackathon-site.netlify.app
