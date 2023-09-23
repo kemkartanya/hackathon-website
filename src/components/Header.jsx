@@ -63,8 +63,8 @@ const Header = () => {
                   key={index}
                   className={(navClass) =>
                     navClass.isActive
-                      ? 'text-primaryColor text-[16px] leading-7 font-[600]'
-                      : 'text-[16px] leading-7 font-[500] hover:text-primaryColor'
+                      ? 'text-textColor text-[16px] leading-7 font-[600]'
+                      : 'text-[16px] leading-7 font-[500] hover:text-white'
                   }
                 >
                   {link.display}

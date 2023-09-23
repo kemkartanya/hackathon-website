@@ -6,6 +6,7 @@ import Register from '../pages/Register'
 import Timeline from '../components/Timeline'
 import Overview from '../components/Overview'
 import Faqs from '../components/Faq/Faqs'
+import Success from '../components/Success'
 
 const Routers = () => {
   return (
@@ -17,6 +18,7 @@ const Routers = () => {
         <Route path='/faqs' element={<Faqs />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/register' element={<Register />} />
+        <Route path='/success' element={<Success />} />
     </Routes>
   )
 }

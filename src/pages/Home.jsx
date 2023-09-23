@@ -10,6 +10,7 @@ import Image from '../assets/images/Image0.png'
 import Prices from '../components/Prices';
 import PrivacyPolicy from '../components/PrivacyPolicy';
 import Partners from '../components/Partners';
+import { NavLink, Link } from 'react-router-dom';
 
 const Home = () => {
 
@@ -41,9 +42,11 @@ const Home = () => {
             <p>Participate in getlinked tech Hackathon 2023 stand <br /> a chance to win a Big price</p>
             
             {/* register button */}
+            <Link to='/register'>
             <button className='gradient-button bg-headingColor my-[30px] p-[10px] w-[150px] rounded'>
               Register
             </button> 
+            </Link>
             
             <br />
 

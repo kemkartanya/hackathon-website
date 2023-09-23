@@ -1,5 +1,8 @@
 import React from 'react';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
+import { SocialIcon } from 'react-social-icons'
+import { BiCurrentLocation, BiLocationPlus, BiPhoneCall, BiSolidLocationPlus} from 'react-icons/bi';
+
 
 export default function Footer() {
   return (
@@ -79,39 +82,26 @@ export default function Footer() {
                 </a>
 
                 {/* social media */}
-                <div>
-                  <a href='' className='me-4 text-reset'>
-                    <MDBIcon fab icon="facebook-f" />
-                  </a>
-                  <a href='' className='me-4 text-reset'>
-                    <MDBIcon fab icon="twitter" />
-                  </a>
-                  <a href='' className='me-4 text-reset'>
-                    <MDBIcon fab icon="google" />
-                  </a>
-                  <a href='' className='me-4 text-reset'>
-                    <MDBIcon fab icon="instagram" />
-                  </a>
-                  <a href='' className='me-4 text-reset'>
-                    <MDBIcon fab icon="linkedin" />
-                  </a>
-                  <a href='' className='me-4 text-reset'>
-                    <MDBIcon fab icon="github" color='white'/>
-                  </a>
-                </div> 
+                <SocialIcon bgColor="none" url="https://instagram.com" />
+                <SocialIcon bgColor="none" url="https://x.com" />
+                <SocialIcon bgColor="none" url="https://facebook.com" />
+                <SocialIcon bgColor="none" url="https://linkedin.com" />
+
               </p>
             </MDBCol>
 
             <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4 text-left'>
               <h6 className='text-uppercase fw-bold mb-4 text-textColor font-bold'>Contact Us</h6>
-              <div className='mt-3'>
-                <p>
+              <div className='mt-3 flex justify-center items-center'>
+                <BiPhoneCall />
+                <p className='ml-2'>
                   +234 679 81819
                 </p>
               </div>
               
-              <div className='mt-3'>
-                <p > 
+              <div className='mt-3 flex justify-center items-center'>
+                <BiLocationPlus />
+                <p className='ml-3'> 
                       27,Alara Street <br />
                       Yaba 100012 <br />
                       Lagos State
